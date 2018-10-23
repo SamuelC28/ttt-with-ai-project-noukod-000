@@ -1,4 +1,4 @@
-# class Player 
+# class Player
 #
 #   #initialize accepts a token to assign
 #   def initialize(token)
