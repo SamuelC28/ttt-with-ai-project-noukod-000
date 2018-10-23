@@ -2,7 +2,7 @@ require "pry"
 
 # class Game
 #   attr_accessor :board, :player_1, :player_2, :timer
-# 
+#
 #   WIN_COMBINATIONS = [
 #   [0, 1, 2],
 #   [3, 4, 5],
@@ -13,7 +13,7 @@ require "pry"
 #   [0, 4, 8],
 #   [6, 4, 2]
 #   ]
-# 
+#
 #   def initialize(player_1 = Player::Human.new("X"), player_2 = Player::Human.new("O"), board = Board.new, wargame = false)
 #     @player_1 = player_1
 #     @player_2 = player_2
@@ -21,7 +21,7 @@ require "pry"
 #     @wargame = wargame
 #     @timer = 1.5
 #   end
-# 
+#
 #   def current_player
 #     board.turn_count.even?  ? player_1 : player_2
 #   end
@@ -181,4 +181,3 @@ class Game
       end
     end
 end
-
