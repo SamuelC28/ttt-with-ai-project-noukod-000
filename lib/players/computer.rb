@@ -13,7 +13,7 @@ require "pry"
 #   [6, 4, 2]
 #   ]
 #   CORNERS = [0, 2, 8, 6]
-# 
+#
 #   def move(board, timer = 0)
 #     @board = board
 #     timer <= 0 ? @timer = 0.01 : @timer = timer
@@ -81,7 +81,7 @@ require "pry"
 # end
 
 
-# module Players
+ module Players
   class Computer < Player
     def move(board)
       if board.cells[4] == " "
