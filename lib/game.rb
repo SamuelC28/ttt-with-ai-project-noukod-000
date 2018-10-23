@@ -104,7 +104,8 @@ class Game
     [1,4,7],
     [2,5,8],
     [0,4,8],
-    [2,4,6]]
+    [2,4,6]
+  ]
     def initialize(player_1=nil, player_2=nil, board=nil)
       @player_1 = player_1
       @player_2 = player_2
